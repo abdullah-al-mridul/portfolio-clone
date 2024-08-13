@@ -1,0 +1,602 @@
+<!-- website host with moumourc777@gmail.com infinity free-->
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm RIM</title>
+    <link rel="icon" href="title-x.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body class="main-bg min-[601px]:cursor-none">
+    <div id="outer-cursor" class="outer-cursor max-[600px]:hidden">   
+    </div>
+    <div class="inner-cursor max-[600px]:hidden">
+
+    </div>
+        <div class="h-screen w-full">
+            <div id="nav-hover" class="bg-[#409cff] max-[600px]:hidden nav-bar shadow-lg fixed ml-[35%] z-50 mt-3 rounded-2xl w-[30%] h-6 nav-bar">
+                <div class="w-full h-full cursor-no max-[650px]:space-x-10 max-[900px]:space-x-16 max-[1200px]:space-x-24 max-[1350px]:space-x-32 space-x-40 flex justify-center items-center">
+                    <ion-icon id="nav-a" class="nav-item hover:scale-150 text-[#f3e95f]" name="home"></ion-icon>
+                    <ion-icon id="nav-b" class="nav-item hover:scale-150 text-[#f3e95f]" name="layers"></ion-icon>
+                    <ion-icon id="nav-c" class="nav-item hover:scale-150 text-[#f3e95f]" name="image"></ion-icon>
+                    <ion-icon id="nav-d" class="nav-item hover:scale-150 text-[#f3e95f]" name="mail"></ion-icon>
+                    <ion-icon id="nav-e" class="nav-item hover:scale-150 text-[#f3e95f]" name="caret-down-circle"></ion-icon>
+                </div>
+            </div>
+            <div id="mobile-nav" class="w-full z-50 fixed max-[600px]:block hidden h-12 bg-[#f3e95f]">
+                <div class="h-full w-full flex items-center justify-between">
+                    <img class="h-8 ml-2" src="logo.png" alt="RIM Logo">
+                    <ion-icon id="menu-open-hover" onclick="menuOpener()" id="menu-open" class="nav-item-menu hover:scale-125 mr-1 text-[#409cff]" name="menu"></ion-icon>
+                </div>
+            </div>
+            <div id="menu-mobile" class="h-screen bg-[#f3e95f] hidden z-10 items-center justify-center w-full">
+                <div class="bg-transparent h-[80%] flex items-center justify-center text-center w-[80%]">
+                    <ul class="block text-[#409cff] space-y-10 font-bold menu-font">
+                        <li><ion-icon onclick="menuCloser()" class="nav-item-menu text-red-500 hover:scale-150" name="close"></ion-icon></li>
+                        <li class="hover:scale-150 transition"><a class="cursor" href="">HOME</a></li>
+                        <li class="hover:scale-150 transition"><a class="cursor" href="">ABOUT</a></li>
+                        <li class="hover:scale-150 transition"><a class="cursor" href="">GALLARY</a></li>
+                        <li class="hover:scale-150 transition"><a class="cursor" href="">CONTACT</a></li>
+                        <li class="hover:scale-150 transition"><a class="cursor" href="">TO DOWN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mobile-nav-16-hidden" class="h-full max-[800px]:grid-rows-2 max-[800px]:grid-cols-1 grid grid-cols-2 grid-rows-1 w-full">
+                <div class="hidden max-[800px]:flex max-[800px]:mt-7 items-center justify-center">
+                    <img data-tilt class="w-[30%] rounded-full" src="my-pic.png" alt="MY_PIC">
+                </div>
+                <div class="items-center max-[800px]:-mt-[160px] justify-center flex">
+                    <div class="">
+                        <h1 class="text-[250px] max-[1000px]:text-[150px] max-[800px]:ml-0 max-[1000px]:ml-[100px] max-[1000px]:mb-4 max-[1400px]:text-[200px] max-[1400px]:ml-16 font-bold ml-5 font-poppins"><span class="text-[#409cff]">R</span><span class="text-[#f3e95f]">I</span><span class="text-[#409cff]">M</span></h1>
+                        <p class="text-2xl max-[1400px]:text-xl max-[800px]:ml-3 max-[800px]:text-[13px] max-[1400px]:ml-14 max-[1400px]:-mt-16 max-[1000px]:text-[15px] max-[1000px]:ml-[90px] font-semibold -mt-20 ml-4 text-[#409cff]">Web Developer based in Natore,RJH,BD</p>
+                        <div class="w-full -mt-5 max-[800px]:ml-0 max-[1000px]:-mt-10 max-[1000px]:ml-12 max-[1400px]:-mt-7 h-40 flex items-center max-[1400px]:ml-6 justify-center">
+                            <a href="#_" id="get-started-btn" class="relative min-[601px]:cursor-none inline-flex items-center justify-start px-6 max-[800px]:px-3 py-3 max-[800px]:py-2 overflow-hidden font-medium transition-all shadow bg-[#f3e95f] rounded hover:bg-[#f3e95f] group">
+                              <span class="w-48 h-48 rounded rotate-[-40deg] bg-[#409cff] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                              <span class="relative w-full max-[800px]:text-sm text-left text-[#409cff] transition-colors duration-300 ease-in-out group-hover:text-white">Get Connected</span>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+                <div class="flex items-center max-[800px]:hidden justify-center">
+                    <img id="image-me" data-tilt class="w-[65%] rounded-full" src="my-pic.png" alt="MY_PIC">
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-1-hidden" class="card-work flex justify-center">
+            <div class="card-cont grid grid-cols-3 max-[840px]:grid-cols-1 max-[840px]:gap-y-10 max-[840px]:grid-rows-3 max-[1330px]:grid-cols-2 max-[870px]:gap-y-4 gap-y-10 max-[1330px]:grid-rows-2 justify-items-center">
+                <div id="card-item-1" data-tilt class="card-item flex justify-center items-center">
+                    <img class="nav-item-inner-1" src="ux.png" alt="UI/UX">
+                </div>
+                <div id="card-item-2" data-tilt class="card-item flex justify-center items-center">
+                    <img class="nav-item-inner-2" src="design.png" alt="Web Design">
+                </div>
+                <div id="card-item-3" data-tilt class="card-item  flex justify-center items-center max-[1330px]:col-span-2 max-[840px]:col-span-1">
+                    <img class="nav-item-inner-3" src="development.png" alt="Web Development">
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-2-hidden" class="about-wrapper mt-36 max-[550px]:mt-24 flex justify-center">
+            <div class="">
+                <h6 id="about-me" class="about-me max-[1330px]:text-[20px] max-[840px]:text-[15px] max-[550px]:text-[13px]">About Me</h6>
+                <p class="about-me-details max-[550px]:text-[15px] max-[840px]:text-[20px] font-extrabold max-[1330px]:text-[30px] max-[1330px]:w-[auto]">A Passionate Developer Who Loves to <span class="text-[#409cff]">JS</span></p>
+            </div>
+        </div>
+        <div id="mobile-nav-3-hidden" class="about-adress max-[950px]:mt-[-50px] max-[950px]:grid-cols-1 max-[950px]:grid-rows-2 grid grid-cols-2 grid-rows-1">
+            <div class="image-sec max-[950px]:pr-[0px] max-[950px]:justify-center max-[1050px]:pr-[20px] max-[1500px]:pr-[85px] flex justify-end items-center">
+                <img id="image-card" data-tilt class="my-card max-[650px]:w-[300px] max-[950px]:w-[320px] max-[1050px]:w-[280px] rounded-xl" src="my-card.png" alt="About-ME">
+            </div>
+            <div class="adress-sec flex justify-center items-center">
+                <div class="h-[100% w-[800px]">
+                    <h1 class="text-[40px] font-poppins font-extrabold ml-5 text-[#f3e95f]">
+                        <span class="text-[#409cff]">About</span> Me
+                    </h1>
+                    <p class="font-poppins text-[#ffffff83] mt-2 font-thin ml-5 w-[90%]">
+                        My name is Rim. 
+                        I live in Natore district of Rajshahi division of Bangladesh. I am 16 years old. 
+                        I am studying in class eight.
+                        I have been learning web development for a year. 
+                        I want to become a great software engineer.
+                        Since childhood I wanted to be different from others so I started working with computers since I was 6 years old. 
+                        <br><br>
+                        <span class="font-semibold text-[#ffffffb0]">Thank You !</span>
+                        <div class="w-[90%] ml-5 mt-12 h-[350px] grid grid-cols-2 grid-rows-1">
+                            <div class="adress-border max-[600px]:text-[14px] name-sec font-poppins items-center font-semibold flex">
+                                <div class="space-y-10 max-[600px]:ml-3 ml-5">
+                                    <div class="space-y-2">
+                                        <p class="text-[#409cffc5] font-thin">Name</p>
+                                        <p class="text-[#f3e95f63]">Abdullah Al Mridul RIM</p>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-[#409cffc5] font-thin">Email</p>
+                                        <p class="text-[#f3e95f63]">rim89987@gmail.com</p>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-[#409cffc5] font-thin">Phone</p>
+                                        <p class="text-[#f3e95f63]">+8801850129668</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="font-poppins country-sec adress-border font-semibold items-center flex">
+                                <div class="space-y-8 max-[600px]:text-[14px] max-[600px]:ml-3 ml-5">
+                                    <div class="space-y-2">
+                                        <p class="text-[#409cffc5] font-thin">Adress</p>
+                                        <p class="text-[#f3e95f63]">Natore-6400, Rajshahi</p>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-[#409cffc5] font-thin">Cuntry</p>
+                                        <p class="text-[#f3e95f63]">Bangladesh</p>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-[#409cffc5] font-thin">City</p>
+                                        <p class="text-[#f3e95f63]">Natore Sadar <span class="text-[12px] max-[600px]:text-[12px] font-thin">
+                                            Center of Northern Bangladesh
+                                        </span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%] -mt-5 max-[1000px]:-mt-10 max-[1400px]:-mt-7 h-40 flex items-center justify-start">
+                            <a href="#_" id="get-cv-btn" class="relative ml-10 min-[601px]:cursor-none inline-flex items-center justify-start px-6 max-[800px]:px-3 py-3 max-[800px]:py-2 overflow-hidden font-medium transition-all shadow bg-[#f3e95f] rounded hover:bg-[#f3e95f] group">
+                              <span class="w-48 h-48 rounded rotate-[-40deg] bg-[#409cff] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                              <span class="relative w-full max-[800px]:text-[12px] text-left text-[#409cff] transition-colors duration-300 ease-in-out group-hover:text-white">Download CV</span>
+                            </a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-4-hidden" class="experience max-[1450px]:h-[500px] max-[715px]:h-[1000px] flex justify-center">
+            <div class="experience-cont grid font-poppins max-[715px]:grid-cols-1 max-[715px]:grid-rows-4 max-[1450px]:gap-y-8 max-[800px]:gap-y-4 max-[1450px]:grid-cols-2 max-[1450px]:grid-rows-2 justify-items-center grid-cols-4 grid-rows-1">
+                <div id="card-1" data-tilt class="cont-item-inner flex justify-center items-center">
+                    <div class="text-center">
+                        <p class="text-[75px] text-[#409cff] -mt-4 font-extrabold">20</p>
+                        <br>
+                        <p class="text-[20px] text-[#f3e95fd7] font-thin -mt-8">Digital Products</p>
+                    </div>
+                </div>
+                <div id="card-2" data-tilt class="cont-item-inner flex justify-center items-center">
+                    <div class="text-center">
+                        <p class="text-[75px] text-[#409cff] -mt-4 font-extrabold">270</p>
+                        <br>
+                        <p class="text-[20px] text-[#f3e95fd7] font-thin -mt-8">Direct Client</p>
+                    </div>
+                </div>
+                <div id="card-3" data-tilt class="cont-item-inner flex justify-center items-center">
+                    <div class="text-center">
+                        <p class="text-[75px] text-[#409cff] -mt-4 font-extrabold">3K</p>
+                        <br>
+                        <p class="text-[20px] text-[#f3e95fd7] font-thin -mt-8">Total Project</p>
+                    </div>
+                </div>
+                <div id="card-4" data-tilt class="cont-item-inner flex justify-center items-center">
+                    <div class="text-center">
+                        <p class="text-[75px] text-[#409cff] -mt-4 font-extrabold">10+</p>
+                        <br>
+                        <p class="text-[20px] text-[#f3e95fd7] font-thin -mt-8">Awards Win</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-5-hidden" class="skill-wrapper">
+            <div class="skill-header font-poppins justify-center items-center flex">
+                <div class="text-center p-5">
+                    <h6 class="text-[23px] max-[1450px]:text-[22px] max-[715px]:text-[17px] text-[#f3e95f] font-thin font-poppins">Skills</h6>
+                    <h1 class="text-[40px] max-[950px]:text-[30px] max-[1450px]:text-[35px] max-[715px]:text-[22px] font-extrabold w-[770px] max-[950px]:w-auto text-[#409cff]">Every Day I Do a lot of Code Practice to Improve My <span class="text-[#f3e95f]">Skills</span></h1>
+                </div>
+            </div>
+            <div class="skill-prog-sec max-[715px]:h-[800px] grid grid-cols-2 max-[715px]:grid-rows-2 max-[715px]:grid-cols-1 text-[20px] grid-rows-1">
+                <div class="skill-prog-bar grid gap-y-10 grid-rows-6 p-8 min-[1450px]:px-[150px]">
+                    <div class="flex justify-between">
+                        <label for="html" class="font-bold text-[#409cff]">
+                            HTML
+                        </label>
+                        <p class="mr-[10%] font-bold text-[#f3e95f]">90%</p>
+                    </div>
+                    <div class="prog-outer">
+                        <div class="html-prog-90"></div>
+                    </div>
+                    <div class="flex justify-between">
+                        <label for="css" class="font-bold text-[#409cff]">
+                            CSS
+                        </label>
+                        <p class="mr-[25%] font-bold text-[#f3e95f]">75%</p>
+                    </div>
+                    <div class="prog-outer">
+                        <div class="css-prog-75"></div>
+                    </div>
+                    <div class="flex justify-between">
+                        <label for="js" class="font-bold text-[#409cff]">
+                            JavaScript
+                        </label>
+                        <p class="mr-[35%] font-bold text-[#f3e95f]">65%</p>
+                    </div>
+                    <div class="prog-outer">
+                        <div class="js-prog-65"></div>
+                    </div>
+                </div>
+                <div class="skill-prog-bar grid gap-y-10 grid-rows-6 min-[1450px]:px-[150px] p-8">
+                    <div class="flex justify-between">
+                        <label for="tail" class="font-bold text-[#409cff]">
+                            TailwindCSS
+                        </label>
+                        <p class="mr-[18%] font-bold text-[#f3e95f]">82%</p>
+                    </div>
+                    <div class="prog-outer">
+                        <div class="tail-prog-82"></div>
+                    </div>
+                    <div class="flex justify-between">
+                        <label for="bootstrap" class="font-bold text-[#409cff]">
+                            Bootstrap
+                        </label>
+                        <p class="mr-[36%] font-bold text-[#f3e95f]">64%</p>
+                    </div>
+                    <div class="prog-outer">
+                        <div class="bootstrap-prog-64"></div>
+                    </div>
+                    <div class="flex justify-between">
+                        <label for="es6" class="font-bold text-[#409cff]">
+                            ES6
+                        </label>
+                        <p class="mr-[67%] font-bold text-[#f3e95f]">33%</p>
+                    </div>
+                    <div class="prog-outer">
+                        <div class="es6-prog-33"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-6-hidden" class="what-do-sec">
+            <div class="skill-header font-poppins justify-center items-center flex">
+                <div class="text-center">
+                    <h6 class="text-[23px] max-[1450px]:text-[22px] max-[715px]:text-[17px] text-[#f3e95f] font-thin font-poppins">Services</h6>
+                    <h1 class="text-[40px] max-[950px]:text-[30px] max-[1450px]:text-[35px] max-[715px]:text-[22px] font-extrabold w-[770px] max-[950px]:w-auto text-[#409cff]">What I Do For My Clients</h1>
+                </div>
+            </div>
+            <div class="card-work flex justify-center">
+                <div class="card-cont grid grid-cols-3 max-[840px]:grid-cols-1 max-[840px]:gap-y-10 max-[840px]:grid-rows-6 max-[1330px]:grid-cols-2 max-[870px]:gap-y-4 gap-y-10 max-[1330px]:grid-rows-3 justify-items-center">
+                    <div data-tilt id="do-card-1" class="do-item opacity-70 max-[600px]:opacity-100 flex justify-center items-center">
+                        <div class="h-full w-full flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex justify-center">
+                                    <ion-icon class="text-[150px] text-[#409cffd7]" name="build"></ion-icon>
+                                </div>
+                                <div class="font-poppins font-extrabold text-[#f3e95fd7] text-[25px]">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tilt id="do-card-2" class="do-item opacity-70 max-[600px]:opacity-100 flex justify-center items-center">
+                        <div class="h-full w-full flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex justify-center">
+                                    <ion-icon class="text-[150px] text-[#409cffd7]" name="code"></ion-icon>
+                                </div>
+                                <div class="font-poppins font-extrabold text-[#f3e95fd7] text-[25px]">
+                                    Web Design
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tilt id="do-card-3" class="do-item opacity-70 max-[600px]:opacity-100 flex justify-center items-center">
+                        <div class="h-full w-full flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex justify-center">
+                                    <ion-icon class="text-[150px] text-[#409cffd7]" name="chatbubbles"></ion-icon>
+                                </div>
+                                <div class="font-poppins font-extrabold text-[#f3e95fd7] text-[25px]">
+                                    Answer Questions
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tilt id="do-card-4" class="do-item opacity-70 max-[600px]:opacity-100 flex justify-center items-center">
+                        <div class="h-full w-full flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex justify-center">
+                                    <ion-icon class="text-[150px] text-[#409cffd7]" name="camera"></ion-icon>
+                                </div>
+                                <div class="font-poppins font-extrabold text-[#f3e95fd7] text-[25px]">
+                                    Photography
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tilt id="do-card-5" class="do-item opacity-70 max-[600px]:opacity-100 flex justify-center items-center">
+                        <div class="h-full w-full flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex justify-center">
+                                    <ion-icon class="text-[150px] text-[#409cffd7]" name="code-slash"></ion-icon>
+                                </div>
+                                <div class="font-poppins text-center font-extrabold text-[#f3e95fd7] text-[25px]">
+                                    Frontend <br> <p class="mt-2">Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tilt id="do-card-6" class="do-item opacity-70 max-[600px]:opacity-100 flex justify-center items-center">
+                        <div class="h-full w-full flex items-center justify-center">
+                            <div class="space-y-10">
+                                <div class="flex justify-center">
+                                    <ion-icon class="text-[150px] text-[#409cffd7]" name="code-download"></ion-icon>
+                                </div>
+                                <div class="font-poppins text-center font-extrabold text-[#f3e95fd7] text-[25px]">
+                                    Backend <br> <p class="mt-2">Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-7-hidden" class="skill-header mt-16 font-poppins justify-center items-center flex">
+            <div class="text-center p-5">
+                <h6 class="text-[23px] max-[1450px]:text-[22px] max-[715px]:text-[17px] text-[#f3e95f] font-thin font-poppins">Skills</h6>
+                <h1 class="text-[40px] max-[950px]:text-[30px] max-[1450px]:text-[35px] max-[715px]:text-[22px] font-extrabold w-[770px] max-[950px]:w-auto text-[#409cff]">I'm a very young kid so I don't have any special resume <span class="text-[#f3e95f]">Yet</span></h1>
+            </div>
+        </div>
+        <div id="mobile-nav-8-hidden" class="w-[100%] -mt-36 h-auto flex justify-center items-center">
+            <div class="w-[80%] max-[600px]:w-[100%] h-[700px] font-poppins grid grid-cols-2 grid-rows-1 max-[1300px]:grid-cols-1 max-[1300px]:grid-rows-2 mt-[150px] max-[1300px]:h-[1400px]">
+                <div class="p-5">
+                    <div class="w-full h-[10%]">
+                        <h1 class="text-[40px] ml-[5%] text-[#409cff] font-extrabold max-[600px]:text-[33px]">Experience</h1>
+                    </div>
+                    <div class="h-[90%] w-full grid grid-rows-3 grid-cols-1">
+                        <div class="flex">
+                            <div class="h-full w-[250px] max-[700px]:w-[180px] flex justify-center items-center">
+                                <div class="h-[110px] max-[800px]:h-[100px] max-[600px]:h-[80px] max-[600px]:w-[80px] max-[800px]:w-[100px] w-[110px] flex justify-center items-center bg-[#409cff] rounded-full">
+                                    <ion-icon class="text-[60px] max-[600px]:text-[50px] text-[#f3e95f]" name="briefcase"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="h-full flex items-center w-full">
+                                 <div class="w-full space-y-4 h-auto">
+                                    <div class="flex justify-between"><p class="font-bold text-[30px] max-[1500px]:text-[30px] max-[800px]:text-[24px] max-[600px]:text-[20px] text-[#f3e95f]">UI/UX Designer</p><p class="font-thin max-[1500px]:text-[18px] mt-3 text-[20px] max-[600px]:text-[12px] max-[600px]:mt-2 max-[800px]:text-[15px] text-[#409cff7b]">( 2022 - 2023 )</p></div>
+                                    <div class="font-semibold text-[21px] max-[1500px]:text-[20px] max-[800px]:text-[17px text-[#f3e95f7b]">Dream IT</div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="h-full w-[250px] max-[700px]:w-[180px] flex justify-center items-center">
+                                <div class="h-[110px] max-[800px]:h-[100px] max-[600px]:h-[80px] max-[600px]:w-[80px] max-[800px]:w-[100px] w-[110px] flex justify-center items-center bg-[#409cff] rounded-full">
+                                    <ion-icon class="text-[60px] max-[600px]:text-[50px] text-[#f3e95f]" name="briefcase"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="h-full flex items-center w-full">
+                                 <div class="w-full space-y-4 h-auto">
+                                    <div class="flex justify-between"><p class="font-bold text-[30px] max-[1500px]:text-[30px] max-[800px]:text-[24px] max-[600px]:text-[20px] text-[#f3e95f]">Web Developer</p><p class="font-thin max-[1500px]:text-[18px] mt-3 text-[20px] max-[600px]:text-[12px] max-[600px]:mt-2 max-[800px]:text-[15px] text-[#409cff7b]">( 2021 - Present )</p></div>
+                                    <div class="font-semibold text-[21px] max-[1500px]:text-[20px] max-[800px]:text-[17px] text-[#f3e95f7b]">Green Soft</div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="h-full w-[250px] max-[700px]:w-[180px] flex justify-center items-center">
+                                <div class="h-[110px] max-[800px]:h-[100px] max-[600px]:h-[80px] max-[600px]:w-[80px] max-[800px]:w-[100px] w-[110px] flex justify-center items-center bg-[#409cff] rounded-full">
+                                    <ion-icon class="text-[60px] max-[600px]:text-[50px] text-[#f3e95f]" name="briefcase"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="h-full flex items-center w-full">
+                                 <div class="w-full space-y-4 h-auto">
+                                    <div class="flex justify-between"><p class="font-bold text-[30px] max-[1500px]:text-[30px] max-[800px]:text-[24px] max-[600px]:text-[20px] text-[#f3e95f]">Web Designer</p><p class="font-thin max-[1500px]:text-[18px] mt-3 text-[20px] max-[600px]:text-[12px] max-[600px]:mt-2 max-[800px]:text-[15px] text-[#409cff7b]">( 2021 - Present )</p></div>
+                                    <div class="font-semibold text-[21px] max-[1500px]:text-[20px] max-[800px]:text-[17px] text-[#f4e95f7b]">Oracle USA</div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <div class="w-full h-[10%]">
+                        <h1 class="text-[40px] ml-[5%] text-[#f3e95e] font-extrabold max-[600px]:text-[33px]">Education</h1>
+                    </div>
+                    <div class="h-[90%] w-full grid grid-rows-3 grid-cols-1">
+                        <div class="flex">
+                            <div class="h-full w-[250px] max-[700px]:w-[180px] flex justify-center items-center">
+                                <div class="h-[110px] max-[800px]:h-[100px] max-[600px]:h-[80px] max-[600px]:w-[80px] max-[800px]:w-[100px] w-[110px] flex justify-center items-center bg-[#f3e95f] rounded-full">
+                                    <ion-icon class="text-[60px] max-[600px]:text-[50px] text-[#409cff]" name="book"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="h-full flex items-center w-full">
+                                 <div class="w-full space-y-4 h-auto">
+                                    <div class="flex justify-between"><p class="font-bold text-[30px] max-[1500px]:text-[30px] max-[800px]:text-[24px] max-[600px]:text-[20px] text-[#409cff]">COLLAGE_CSE</p><p class="font-thin max-[1500px]:text-[18px] mt-3 text-[20px] max-[600px]:text-[12px] max-[600px]:mt-2 max-[800px]:text-[15px] text-[#f3e95f7b]">( .............. )</p></div>
+                                    <div class="font-semibold text-[21px] max-[1500px]:text-[20px] max-[800px]:text-[17px text-[#409cff7b]">University</div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="h-full w-[250px] max-[700px]:w-[180px] flex justify-center items-center">
+                                <div class="h-[110px] max-[800px]:h-[100px] max-[600px]:h-[80px] max-[600px]:w-[80px] max-[800px]:w-[100px] w-[110px] flex justify-center items-center bg-[#f3e95f] rounded-full">
+                                    <ion-icon class="text-[60px] max-[600px]:text-[50px] text-[#409cff]" name="book"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="h-full flex items-center w-full">
+                                 <div class="w-full space-y-4 h-auto">
+                                    <div class="flex justify-between"><p class="font-bold text-[30px] max-[1500px]:text-[30px] max-[800px]:text-[24px] max-[600px]:text-[20px] text-[#409cff]">Junior School</p><p class="font-thin max-[1500px]:text-[18px] mt-3 text-[20px] max-[600px]:text-[12px] max-[600px]:mt-2 max-[800px]:text-[15px] text-[#f3e95f7b]">( 2023 )</p></div>
+                                    <div class="font-semibold text-[21px] max-[1500px]:text-[20px] max-[800px]:text-[17px] text-[#409cff7b]">Moharaja J.N</div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="h-full w-[250px] max-[700px]:w-[180px] flex justify-center items-center">
+                                <div class="h-[110px] max-[800px]:h-[100px] max-[600px]:h-[80px] max-[600px]:w-[80px] max-[800px]:w-[100px] w-[110px] flex justify-center items-center bg-[#f3e95f] rounded-full">
+                                    <ion-icon class="text-[60px] max-[600px]:text-[50px] text-[#409cff]" name="book"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="h-full flex items-center w-full">
+                                 <div class="w-full space-y-4 h-auto">
+                                    <div class="flex justify-between"><p class="font-bold text-[30px] max-[1500px]:text-[30px] max-[800px]:text-[24px] max-[600px]:text-[20px] text-[#409cff]">Primary School</p><p class="font-thin max-[1500px]:text-[18px] mt-3 text-[20px] max-[600px]:text-[12px] max-[600px]:mt-2 max-[800px]:text-[15px] text-[#f3e95f7b]">( 2015 - 2020 )</p></div>
+                                    <div class="font-semibold text-[21px] max-[1500px]:text-[20px] max-[800px]:text-[17px] text-[#409cff7b]">Shaheen Cadet</div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-9-hidden" class="skill-header font-poppins mt-10 justify-center items-center flex">
+            <div class="text-center p-5">
+                <h6 class="text-[23px] max-[1450px]:text-[22px] max-[715px]:text-[17px] text-[#f3e95f] font-thin font-poppins">Portfolio</h6>
+                <h1 class="text-[40px] max-[950px]:text-[30px] max-[1450px]:text-[35px] max-[715px]:text-[22px] font-extrabold w-[770px] max-[950px]:w-auto text-[#409cff]">I have done some amazing projects for my<span class="text-[#f3e95f]"> Clients</span></h1>
+            </div>
+        </div>
+        <div id="mobile-nav-10-hidden" class="w-[100%] text-lg max-[1300px]:text-lg max-[1100px]:text-[16px] max-[840px]:text-sm font-semibold font-poppins h-[auto] justify-center flex">
+            <div class="w-[700px] max-[840px]:w-[500px] max-[600px]:w-[100%] gap-y-4 max-[840px]:grid-cols-4 max-[840px]:grid-rows-2 grid grid-cols-6 grid-rows-1 justify-items-center">
+                <p id="sel-1" class="selection-tab hover:text-[#409cff] text-[#f3e95f] transition-all duration-300">All</p>
+                <p id="sel-2" class="selection-tab text-[#409cff] hover:text-[#f3e95f] transition-all duration-300">Content</p>
+                <p id="sel-3" class="selection-tab hover:text-[#409cff] text-[#f3e95f] transition-all duration-300">Popup</p>
+                <p id="sel-4" class="selection-tab text-[#409cff] hover:text-[#f3e95f] transition-all duration-300">Sound</p>
+                <p id="sel-5" class="selection-tab hover:text-[#409cff] text-[#f3e95f] transition-all duration-300 col-span-2 ml-20 min-[840px]:ml-0 min-[840px]:col-span-1">Vimeo</p>
+                <p id="sel-6" class="selection-tab text-[#409cff] hover:text-[#f3e95f] transition-all duration-300 col-span-2 mr-20 min-[840px]:mr-0 min-[840px]:col-span-1">Youtube</p>
+            </div>
+        </div>
+        <div id="mobile-nav-11-hidden" class="h-auto w-full flex justify-center mt-10">
+            <div id="sel-res" class="gap-y-6 max-[650px]:h-[1940px] transition-all duration-500 max-[650px]:grid-cols-1 max-[650px]:grid-rows-6 max-[1000px]:h-[1000px] max-[1000px]:grid-cols-2 max-[1000px]:grid-rows-3 justify-items-center grid grid-cols-3 grid-rows-2 h-[700px] w-[1200px]">
+                <div data-tilt id="im-1" class="port-image flex items-center justify-center im-1">
+                    <div id="popup-visible" class="w-[80%] shadow-md shadow-[#1e1345] popup-trans h-[65px] opacity-0 duration-500 text-center rounded-2xl font-poppins mt-[184px] bg-[#1e1345]">
+                        <p class="font-bold text-xl text-[#409cff] mt-1">Axe Drow</p>
+                        <p class="font-thin text-[16px] text-[#f3e95f7b]">Youtube</p>
+                    </div>
+                </div>
+                <div data-tilt id="im-2" class="port-image flex items-center justify-center im-2">
+                    <div id="popup-visible-1" class="w-[80%] popup-trans h-[65px] shadow-md shadow-[#1e1345] opacity-0 duration-500 text-center rounded-2xl font-poppins mt-[184px] bg-[#1e1345]">
+                        <p class="font-bold text-xl text-[#f3e95f] mt-1">Mockup Clock</p>
+                        <p class="font-thin text-[16px] text-[#409cff7b]">Vimeo</p>
+                    </div>
+                </div>
+                <div data-tilt id="im-3" class="port-image flex items-center justify-center im-3">
+                    <div id="popup-visible-2" class="w-[80%] popup-trans h-[65px] shadow-md shadow-[#1e1345] opacity-0 duration-500 text-center rounded-2xl font-poppins mt-[184px] bg-[#1e1345]">
+                        <p class="font-bold text-xl text-[#409cff] mt-1">Afra Porter</p>
+                        <p class="font-thin text-[16px] text-[#f3e95f7b]">Sound</p>
+                    </div>
+                </div>
+                <div data-tilt id="im-4" class="port-image flex items-center justify-center im-4">
+                    <div id="popup-visible-3" class="w-[80%] popup-trans h-[65px] shadow-md shadow-[#1e1345] opacity-0 duration-500 text-center rounded-2xl font-poppins mt-[184px] bg-[#1e1345]">
+                        <p class="font-bold text-xl text-[#f3e95f] mt-1">Good Idea</p>
+                        <p class="font-thin text-[16px] text-[#409cff7b]">Popup</p>
+                    </div>
+                </div>
+                <div data-tilt id="im-5" class="port-image flex items-center justify-center im-5">
+                    <div id="popup-visible-4" class="w-[80%] popup-trans h-[65px] shadow-md shadow-[#1e1345] opacity-0 duration-500 text-center rounded-2xl font-poppins mt-[184px] bg-[#1e1345]">
+                        <p class="font-bold text-xl text-[#409cff] mt-1">Magic Art</p>
+                        <p class="font-thin text-[16px] text-[#f3e95f7b]">Popup</p>
+                    </div>
+                </div>
+                <div data-tilt id="im-6" class="port-image flex items-center justify-center im-6">
+                    <div id="popup-visible-5" class="w-[80%] popup-trans h-[65px] shadow-md shadow-[#1e1345] opacity-0 duration-500 text-center rounded-2xl font-poppins mt-[184px] bg-[#1e1345]">
+                        <p class="font-bold text-xl text-[#f3e95f] mt-1">Creative Design</p>
+                        <p class="font-thin text-[16px] text-[#409cff7b]">Content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-12-hidden" class="skill-header font-poppins mt-10 justify-center items-center flex">
+            <div class="text-center p-5">
+                <h6 class="text-[23px] max-[1450px]:text-[22px] max-[715px]:text-[17px] text-[#f3e95f] font-thin font-poppins">Contact</h6>
+                <h1 class="text-[40px] max-[950px]:text-[30px] max-[1450px]:text-[35px] max-[715px]:text-[22px] font-extrabold w-[770px] max-[950px]:w-auto text-[#409cff]">I Want To Hear From<span class="text-[#f3e95f]"> You</span></h1>
+            </div>
+        </div>
+        <div id="mobile-nav-13-hidden" class="w-full h-[500px] max-[1000px]:grid-cols-1 font-poppins max-[1000px]:h-[1000px] max-[1000px]:grid-rows-2 grid grid-cols-2 grid-rows-1">
+            <div class="grid grid-cols-1 max-[600px]:h-[400px] grid-rows-3 p-16 max-[700px]:p-5">
+                <div class="flex justify-center">
+                    <div class="h-full flex max-[700px]:w-[350px] max-[1000px]:w-[500px] max-[1350px]:w-[350px] w-[500px]">
+                        <div class="h-full flex items-center justify-center w-[30%]">
+                            <ion-icon class="text-[100px] text-[#409cff] max-[700px]:text-[70px]" name="location"></ion-icon>
+                        </div>
+                        <div class="h-full flex items-center pl-10 max-[700px]:pl-2 w-[70%]">
+                            <div class="space-y-3">
+                                <p class="text-3xl font-extrabold max-[700px]:text-xl text-[#f3e95f]">Adress</p>
+                                <p class="text-lg text-[#409cff7b] max-[700px]:text-sm font-semibold">Natore,Rajshahi,Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="h-full flex max-[700px]:w-[350px] max-[1000px]:w-[500px] max-[1350px]:w-[350px] w-[500px]">
+                        <div class="h-full flex items-center justify-center w-[30%]">
+                            <ion-icon class="text-[85px] text-[#f3e95f] max-[700px]:text-[55px]" name="call"></ion-icon>
+                        </div>
+                        <div class="h-full flex items-center pl-10 max-[700px]:pl-2 w-[70%]">
+                            <div class="space-y-3">
+                                <p class="text-3xl font-extrabold max-[700px]:text-xl text-[#409cff]">Phone</p>
+                                <p class="text-lg text-[#f3e95f7b] max-[700px]:text-sm font-semibold">+88 01850129668</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="h-full flex max-[700px]:w-[350px] max-[1000px]:w-[500px] max-[1350px]:w-[350px] w-[500px]">
+                        <div class="h-full flex items-center justify-center w-[30%]">
+                            <ion-icon class="text-[85px] text-[#409cff] max-[700px]:text-[55px]" name="mail"></ion-icon>
+                        </div>
+                        <div class="h-full flex items-center pl-10 max-[700px]:pl-2 w-[70%]">
+                            <div class="space-y-3">
+                                <p class="text-3xl font-extrabold max-[700px]:text-xl text-[#f3e95f]">Mail</p>
+                                <p class="text-lg text-[#409cff7b] max-[700px]:text-sm font-semibold">rim89987@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 grid-rows-2 font-poppins box-border pr-20 max-[1000px]:pr-0">
+                <div class="grid max-[650px]:grid-cols-1 max-[650px]:grid-rows-4 p-4 max-[650px]:py-2 grid-cols-2 grid-rows-2">
+                    <div class="p-5 max-[650px]:p-1">
+                        <input placeholder="NAME" class="h-full transition-all duration-300 max-[650px]:cursor-default max-[650px]:hover:cursor-default input border-yollow w-full" type="text" name="" id="">
+                    </div>
+                    <div class="p-5 max-[650px]:p-1">
+                        <input placeholder="EMAIL" class="h-full transition-all duration-300 max-[650px]:cursor-default max-[650px]:hover:cursor-default input border-blue w-full" type="email" name="" id="">
+                    </div>
+                    <div class="p-5 max-[650px]:p-1">
+                        <input placeholder="PHONE" class="h-full transition-all duration-300 max-[650px]:cursor-default max-[650px]:hover:cursor-default input border-yollow-bot w-full" type="tel" name="" id="">
+                    </div>
+                    <div class="p-5 max-[650px]:p-1">
+                        <input placeholder="SUBJECT" class="h-full transition-all duration-300 max-[650px]:cursor-default max-[650px]:hover:cursor-default input border-blue-bot w-full" type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="h-[70%] w-full max-[650px]:p-1 p-5">
+                        <input placeholder="WRITE HERE YOUR MESSAGE" class="h-full transition-all duration-300 input max-[650px]:cursor-default max-[650px]:hover:cursor-default border-unk w-full" type="text" name="" id="">
+                    </div>
+                    <div class="h-[30%] w-full flex items-center">
+                        <div class="w-full h-18 flex items-center justify-start max-[650px]:p-1 p-5">
+                            <a id="send-message" href="#_" id="get-started-btn" class="relative min-[601px]:cursor-none inline-flex items-center justify-start px-6 max-[800px]:px-3 py-3 max-[800px]:py-2 overflow-hidden font-medium transition-all shadow bg-[#f3e95f] rounded hover:bg-[#f3e95f] group">
+                              <span class="w-48 h-48 rounded rotate-[-40deg] bg-[#409cff] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                              <span class="relative w-full max-[800px]:text-sm text-left text-[#409cff] transition-colors duration-300 ease-in-out group-hover:text-white">Send Message</span>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-14-hidden" class="h-[200px] flex justify-center items-center mt-16 max-[650px]:my-0 w-full">
+            <div data-tilt class="h-full bg-[#3a2b71] shadow-xl w-[700px] max-[1000px]:w-[500px] max-[650px]:w-[300px] max-[650px]:h-[50%] max-[1000px]:h-[80%] rounded-xl grid grid-cols-4">
+                <div class="flex items-center justify-center">
+                    <a id="link1" href="https://www.facebook.com/rim.ff.yt.71" target="_blank"><ion-icon class="text-[80px] text-[#f3e95f] max-[950px]:text-[60px] max-[650px]:text-[40px] hover:scale-125 transition-all duration-200" name="logo-facebook"></ion-icon></a>
+                </div>
+                <div id="link2" class="flex items-center justify-center">
+                    <a id="link2" href="https://twitter.com/RIM89987" target="_blank"><ion-icon class="text-[80px] text-[#409cff] max-[950px]:text-[60px] hover:scale-125 transition-all duration-200 max-[650px]:text-[40px]" name="logo-twitter"></ion-icon></a>
+                </div>
+                <div class="flex items-center justify-center">
+                    <a id="link3" href="https://github.com/rim89987" target="_blank"><ion-icon class="text-[80px] hover:scale-125 transition-all duration-200 text-[#f3e95f] max-[950px]:text-[60px] max-[650px]:text-[40px]" name="logo-github"></ion-icon></a>
+                </div>
+                <div class="flex items-center justify-center">
+                    <a id="link4" href="https://www.linkedin.com/in/abdullah-al-mridul-rim-41b695264/" target="_blank"><ion-icon class="text-[80px] hover:scale-125 transition-all duration-200 text-[#409cff] max-[950px]:text-[60px] max-[650px]:text-[40px]" name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav-15-hidden" class="h-20 w-full font-poppins font-thin flex items-end justify-center">
+            <p class="text-[#409cff]">Copyright @<a class="text-[#f3e95f]" href="https://www.facebook.com/rim.ff.yt.71" target="_blank">RIM</a>. All rights reserved</p>
+        </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <script src="tilt.js"></script>
+    <script src="cursor.js"></script>
+</body>
+</html> 
